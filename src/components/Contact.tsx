@@ -20,6 +20,7 @@ import {
   Calendar,
   RotateCcw
 } from 'lucide-react';
+import contactPortrait from '../assets/images/regenerated_image_1790778080510.png';
 import { SoundFX } from '../utils/soundFX';
 import { PROFILE } from '../data/portfolioData';
 import { useTheme } from '../context/ThemeContext';
@@ -382,7 +383,7 @@ export const Contact: React.FC = () => {
                 >
                   <img
                     id="contact-portrait-img"
-                    src="/src/assets/images/regenerated_image_1790778080510.png"
+                    src={contactPortrait}
                     alt={PROFILE.name}
                     className="w-full h-full object-cover object-center"
                     referrerPolicy="no-referrer"

@@ -8,6 +8,7 @@ import {
   Mail,
   ChevronDown
 } from 'lucide-react';
+import heroPortrait from '../assets/images/regenerated_image_1790778080510.png';
 import { SoundFX } from '../utils/soundFX';
 import { PROFILE } from '../data/portfolioData';
 import { useTheme } from '../context/ThemeContext';
@@ -252,7 +253,7 @@ export const Hero: React.FC<HeroProps> = ({
               >
                 <img
                   id="hero-portrait-img"
-                  src="/src/assets/images/regenerated_image_1790778080510.png"
+                  src={heroPortrait}
                   alt={`${PROFILE.name} — ${PROFILE.title}`}
                   className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   loading="eager"
