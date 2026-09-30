@@ -252,7 +252,7 @@ export const Hero: React.FC<HeroProps> = ({
               >
                 <img
                   id="hero-portrait-img"
-                  src="public/regenerated_image_1790778080510.png"
+                  src="/src/assets/images/regenerated_image_1790778080510.png"
                   alt={`${PROFILE.name} — ${PROFILE.title}`}
                   className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   loading="eager"
